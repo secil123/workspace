@@ -20,7 +20,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+<<<<<<< HEAD
 SECRET_KEY = '0n&dfom*_&ux0oi7#q$z3_3#)ll--7up+$bp#ao$zi^j6u)_te'
+=======
+SECRET_KEY = '(kc6852^g7l4o0)b37*6lib1=q6nj=zcw*=9&kw(_s_praa=0_'
+>>>>>>> 35cf7db8f427b52f09b1e65953fda92a1a0d453e
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,13 +41,21 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
     'blog', #register blog app
+=======
+    'blog',#register the blog app
+>>>>>>> 35cf7db8f427b52f09b1e65953fda92a1a0d453e
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+<<<<<<< HEAD
     'django.middleware.common.CommonMiddleware',
+=======
+    'django.middleware#.common.CommonMiddleware',
+>>>>>>> 35cf7db8f427b52f09b1e65953fda92a1a0d453e
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -55,7 +67,11 @@ ROOT_URLCONF = 'blogproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+<<<<<<< HEAD
         'DIRS': [os.path.join(BASE_DIR, 'templates')],
+=======
+        'DIRS': [],
+>>>>>>> 35cf7db8f427b52f09b1e65953fda92a1a0d453e
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
